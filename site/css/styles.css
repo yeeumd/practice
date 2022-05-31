@@ -1,0 +1,44 @@
+/*** base styles ****/
+.container {
+	margin: 20px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+section {
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid black;
+}
+
+#chicken {
+	color: black;
+	background-color: pink;
+}
+
+#beef {
+	color: white;
+	background-color: red;
+}
+
+#sushi {
+	color: black;
+	background-color: lightgoldenrodyellow;
+}
+
+/*** large devices only ******/
+@media (min-width: 992px) {}
+
+/*** tablet view ***/
+@media (min-width: 768px) and (max-width:991px) {}
+
+/*** mobile view ***/
+@media (max-width: 767px) {}
